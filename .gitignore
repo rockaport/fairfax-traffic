@@ -1,3 +1,5 @@
 *.swp
 *.txt
 .idea/
+*.m~
+figures/

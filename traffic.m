@@ -1,7 +1,6 @@
 close all, clear all, clc
 listing = dir("*.txt");
 
-%for ii = 1:length(listing)
-    process_file(listing(1).name)
-%end
-
+for ii = 1:length(listing)
+    [t, s] = process_file(listing(ii).name);
+end
